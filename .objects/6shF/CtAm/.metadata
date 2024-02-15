@@ -1,0 +1,12 @@
+﻿{
+  "Id": "CtAmL1pc20mSFg53Q8GgCw",
+  "Reference": "8cIx1jj6fEWQCLW70-gUJQ/CtAmL1pc20mSFg53Q8GgCw",
+  "ParentRef": "8cIx1jj6fEWQCLW70-gUJQ/6shFDGUNQkqCwOm21Oah8w",
+  "Name": "1.0.0",
+  "Type": "AppVersion",
+  "Created": "2023-02-15T08:41:51.4218034Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-02-15T08:41:51.4218034Z"
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Id": "tn6QW0s9Xkq4QiQVxpFwxA",
+  "Reference": "8cIx1jj6fEWQCLW70-gUJQ/tn6QW0s9Xkq4QiQVxpFwxA",
+  "ParentRef": "8cIx1jj6fEWQCLW70-gUJQ/CtAmL1pc20mSFg53Q8GgCw",
+  "Name": "ACME - Login Screen",
+  "Type": "Screen",
+  "Created": "2023-02-15T08:41:51.4345079Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-02-15T08:41:51.4345079Z"
+}
