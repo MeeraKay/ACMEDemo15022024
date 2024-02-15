@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: windows-latest
+ Default
 
 steps:
 - task: UiPathPack@4
@@ -15,8 +15,13 @@ steps:
     versionType: 'AutoVersion'
     projectJsonPath: '$(Build.SourcesDirectory)'
     outputType: 'Process'
-    orchestratorConnection: 'SC15022024'
+    orchestratorConnection: 'TSILTSC15022024'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+- task: UiPathTest@4
+  inputs:
+    testTarget: 'TestProject'
+    orchestratorConnection: 'TSILTSC15022024'
+    folderName: 'Meera'
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
