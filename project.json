@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.10.3.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.162125133",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -44,16 +44,23 @@
     },
     "fileInfoCollection": [
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "24c0ce35-5bba-4a3c-9635-60016ae561b1",
         "testCaseType": "TestCase",
         "fileName": "TestCase.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "279255ea-183f-4940-a969-7005b3cd6597",
         "testCaseType": "TestCase",
         "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e1c49bf5-d532-4959-b103-33f8953579a7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCaseP.xaml"
       }
     ],
     "modernBehavior": true,
