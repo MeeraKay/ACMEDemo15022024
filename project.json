@@ -53,7 +53,7 @@
         "editingStatus": "InProgress",
         "testCaseId": "279255ea-183f-4940-a969-7005b3cd6597",
         "testCaseType": "TestCase",
-        "fileName": "Testcases\\TestCase1.xaml"
+        "fileName": "TestCase1.xaml"
       }
     ],
     "modernBehavior": true,
