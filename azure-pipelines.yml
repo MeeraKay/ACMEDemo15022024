@@ -10,6 +10,9 @@ pool:
  Default
 
 steps:
+- task: UiPathInstallPlatform@4
+  inputs:
+    cliVersion: 'WIN_23.6.8581.19168'
 - task: UiPathPack@4
   inputs:
     versionType: 'AutoVersion'
@@ -19,8 +22,9 @@ steps:
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
 - task: UiPathTest@4
   inputs:
-    testTarget: 'TestProject'
+    testTarget: 'TestSet'
     orchestratorConnection: 'TSILTSC15022024'
+    testSet: 'testset1'
     folderName: 'Meera'
 - task: PublishBuildArtifacts@1
   inputs:
